@@ -43,7 +43,7 @@ main {
   color: white;
   background-image: url(images/react-icon-big.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 75%;
 }
 
 .main--title {
