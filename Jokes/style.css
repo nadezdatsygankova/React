@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+}
+.block{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width:700px){
+    .block{
+        flex-direction: row;
+    }
+}
